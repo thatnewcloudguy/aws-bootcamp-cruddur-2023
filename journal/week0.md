@@ -10,7 +10,7 @@ I was able to work on all the required homework, and checked all the checklists 
 
 I created my IAM User on the AWS platform and set up MFA.
 
-I saw the videos on Security and Billing. I was also to answer and submit the quiz on the Security video. 
+I saw the videos on Security and Billing. I was also able to answer and submit the quiz on the Security video. 
 
 Architectural Diagram
 
