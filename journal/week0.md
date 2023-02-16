@@ -29,3 +29,7 @@ Using EventBridge, I was able to set up a rule that would send notification via 
 
 ![image](https://user-images.githubusercontent.com/125236587/219177927-2c62773c-8577-441a-ae26-910708656cf0.png)
 
+
+AWS Well-Architected Tool
+
+I was able to review the questions from the pillars of the AWS Well-Architectured Tool. The pillars are Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability, Operational Excellence. This tool helps ensure that projects decision and implememtation are done with the best practices. At the end of the review, the tool identifies the risk in your workload prioritized by the level of risk, it then suggests plans to address the issues.
