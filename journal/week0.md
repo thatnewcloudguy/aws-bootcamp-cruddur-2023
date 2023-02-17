@@ -16,11 +16,11 @@ I created my IAM User on the AWS platform and set up MFA.
 
 ### Billing and Security Videos
 
-I saw the videos on Security and Billing. I was also able to answer and submit the quiz on the Security video. 
+I saw the videos on Security and Billing. I was also able to answer and submit the quiz on the Security  and Billing videos. 
 
 ### Setting up Billing Alarm and Budget using CLI
 
-I was able to set up billing alarm and budget for my AWS account using the AWS CLI. 
+I was able to set up billing alarm and budget for my AWS account using the AWS CLI. The code was committed to_docs/aws/json folder.
 
 ### Conceptual Diagram - Napkin Sketch
 
@@ -46,6 +46,15 @@ https://lucid.app/lucidchart/268fb931-eb9d-486b-a474-6099865ab565/edit?viewport_
 ### EventBridge
 
 Using EventBridge, I was able to set up a rule that would send notification via SNS when the rule is met. It was a simple rule (I try not to complicate things) involving CloudWatch. A notification would be sent via SNS when there's a change in the Alarm state.
+
+Below is the code for the rule I created.
+
+```
+{
+  "source": ["aws.cloudwatch"],
+  "detail-type": ["CloudWatch Alarm State Change"]
+}
+```
 
 ![image](https://user-images.githubusercontent.com/125236587/219177927-2c62773c-8577-441a-ae26-910708656cf0.png)
 
