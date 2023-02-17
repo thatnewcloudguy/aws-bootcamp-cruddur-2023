@@ -20,7 +20,15 @@ I saw the videos on Security and Billing. I was also able to answer and submit t
 
 ### Setting up Billing Alarm and Budget using CLI
 
-I was abel to set up billing alarm and budget for my AWS account using the AWS CLI. 
+I was able to set up billing alarm and budget for my AWS account using the AWS CLI. 
+
+### Conceptual Diagram - Napkin Sketch
+
+I came up with a conceptual diagram to briefly describe the concept of the project we are working on. 
+The image is linked below.
+
+![20230217_031542](https://user-images.githubusercontent.com/125236587/219631252-ff42a5fc-e48e-48dd-bd81-cad6cae17f84.jpg)
+
 
 ### Architectural Diagram
 
