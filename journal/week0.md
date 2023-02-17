@@ -1,8 +1,10 @@
 # Week 0 — Billing and Architecture
 
-##Prerequisites
+## Prerequisites
 
-I was able to work on all the required prerequisites as instructed by the team.
+I was able to work on all the required prerequisites as instructed by the team. These include:
+
+
 
 ## Required Homework
 
@@ -15,6 +17,10 @@ I created my IAM User on the AWS platform and set up MFA.
 ### Billing and Security Videos
 
 I saw the videos on Security and Billing. I was also able to answer and submit the quiz on the Security video. 
+
+### Setting up Billing Alarm and Budget using CLI
+
+I was abel to set up billing alarm and budget for my AWS account using the AWS CLI. 
 
 ### Architectural Diagram
 
