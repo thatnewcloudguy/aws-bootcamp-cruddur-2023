@@ -1,8 +1,7 @@
 openapi: '3.0.2'
 info:
   title: Cruddur Backend API
-  version: '1.0'
-    
+  version: '1.0'    
 servers:
   - url: https://api.server.test/v1
 paths:
@@ -169,7 +168,6 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Activity'
-
 components:
   schemas:
     Activity:
