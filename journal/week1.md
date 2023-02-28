@@ -47,6 +47,13 @@ I researched [Dockerfile Best Practices](https://docs.docker.com/develop/develop
 I added some lines of code to the gitpod.yml file. This is to ensure that ***npm install*** runs automatically when the workspace is launched.
 
 ```
+init: |
+      cd /workspace/aws-bootcamp-cruddur-2023/backend-flask
+      pip3 install -r requirements.txt
+      cd /workspace/aws-bootcamp-cruddur-2023/frontend-react-js
+      npm i
+```
+      
 
 
 
