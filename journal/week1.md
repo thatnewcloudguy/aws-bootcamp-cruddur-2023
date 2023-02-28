@@ -32,7 +32,22 @@ I implemented the instructions as provided in the Docker [Multi-Stage Build Docu
 I researched [Dockerfile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
 
-### 
+### Implementing Health Check
+
+[Dockerfile Health Check](https://docs.docker.com/engine/reference/builder/#healthcheck)
+
+
+### Multi-stage building for Dockerfile
+
+[Dockerfile Multi-stage build](https://docs.docker.com/build/building/multi-stage/)
+
+
+### Update to gitpod.yml
+
+I added some lines of code to the gitpod.yml file. This is to ensure that ***npm install*** runs automatically when the workspace is launched.
+
+```
+
 
 
 
