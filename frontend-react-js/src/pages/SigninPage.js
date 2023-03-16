@@ -16,8 +16,9 @@ export default function SigninPage() {
     setErrors('')
     console.log()
     event.preventDefault();
-      Auth.signIn(username, password)
+      Auth.signIn(email, password)
         .then(user => {
+          console.log('user',user)
           localStorage.setItem("access_token", user.signInUserSession.accessToken.jwtToken)
           window.location.href = "/"
         })
